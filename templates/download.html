@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css') }}">
      <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqQAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAC8AAAAAAAAAAAAAAAAQ0O+/1pa//9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//Wlr//0NDvv8AAAAAAAAA/1pa//9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//AAAA/wAAAP9aWv//Wlr//1pa//9aWv//Wlr//wwMIf9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//Wlr//wAAAP8AAAD/LS2A/1pa//9aWv//Wlr//1pa//8AAAD/AAAA/y8vhP9aWv//Wlr//1pa//9aWv//Wlr//1pa//8AAAD/AAAA/y0tgP9aWv//Wlr//1pa//9aWv//AAAA////////////AAAA/1pa//9aWv//Wlr//1pa//9aWv//AAAA/wAAAP80NJT/Wlr//1pa//9aWv//Wlr//wAAAP///////////wAAAP9aWv//Wlr//1pa//9aWv//Wlr//wAAAP8AAAD/Wlr//1pa//9aWv//Wlr//1pa//8AAAD/AAAA/1hY+f9aWv//Wlr//1pa//9aWv//Wlr//1pa//8AAAD/AAAA/1pa//9aWv//Wlr//1pa//9aWv//Li6B/1pa//9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//AAAA/wAAAP9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//Wlr//wAAAP8AAAAAQ0O+/1pa//9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//Wlr//0NDvv8AAAAAAAAAAAAAAAAAAAC1AAAA/wAAAP8AAAD/AAAA/62t/1itrf9YAAAA/wAAAP8AAAD/AAAA/wAAAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAP//AADAAwAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAEAAMGDAAD//wAA//8AAA==" rel="icon" type="image/x-icon" />
 
     <title>YouTube Scraper App</title>
@@ -23,8 +24,8 @@
 </style>
 <body>
 <div style="text-align:center">
-    <h1 style="vertical-align: top;color:white; position:relative; Font-size:50px"> Video Downloaded <img src="https://www.pngmart.com/files/3/Green-Tick-Transparent-PNG.png" alt="" width=50px/></h1>
-    <p>Check Your Chrome Browser...</p>
+    <h1 style="vertical-align: top;color:white; position:relative; Font-size:50px"> Here Is Your Video...</h1>
+<!--    <p>Check Your Chrome Browser...</p>-->
 </div>
 
 
@@ -33,5 +34,18 @@
   <iframe width="800" height="500" src="https://www.youtube.com/embed/{{video_id}}">
   </iframe>
 </div>
+
+<footer>
+  <p>
+    Created with <ion-icon name="heart-outline"></ion-icon> by
+    <a target="_blank">Himanshu Goswami</a>
+    Connect Here :
+      <a target="_blank"  href="https://www.instagram.com/walkwithhimz/"><ion-icon name="logo-instagram"></ion-icon></a>
+    <a target="_blank"  href="https://www.linkedin.com/in/himanshu-goswami-972059231/"><ion-icon name="logo-linkedin"></ion-icon></a>
+    <a target="_blank" href="https://github.com/HimGos"><ion-icon name="logo-github"></ion-icon></a>
+      <a target="_blank" href="https://twitter.com/Walk_With_Himz"><ion-icon name="logo-twitter"></ion-icon></a>
+  </p>
+</footer>
+
 </body>
 </html>
