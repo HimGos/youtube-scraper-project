@@ -3,7 +3,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from googleapiclient.discovery import build
-from pytube import YouTube
+from pytube import YouTube, helpers
 import time
 import pymongo
 import pymysql
@@ -238,6 +238,12 @@ def comments(video_id):
 @app.route('/download/<video_id>')
 def download(video_id):
     try:
+
+        proxy_handler = {
+            "http": "127.0.0.1:20304",
+            'https': '127.0.0.1:20304'
+        }
+        helpers.install_proxy(proxy_handler)
         path = os.path.join(os.environ["HOMEPATH"], "Desktop")
         yt = YouTube("https://www.youtube.com/watch?v=" + video_id)
         yt.streams.get_lowest_resolution().download(path)
