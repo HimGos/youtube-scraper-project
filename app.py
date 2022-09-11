@@ -256,7 +256,14 @@ def download(video_id):
 
     try:
 
-        driver = webdriver.Chrome()
+        chrome_options = webdriver.ChromeOptions()
+        chrome_options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
+        chrome_options.add_argument("--headless")
+        chrome_options.add_argument("--disable-dev-shm-usage")
+        chrome_options.add_argument("--no-sandbox")
+        driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), options=chrome_options)
+
+        # driver = webdriver.Chrome()
         # Heading to website from where we can download video
         driver.get("https://en.savefrom.net/210/")
         element = driver.find_element(By.ID, "sf_url")
@@ -273,7 +280,7 @@ def download(video_id):
         element1.click()
 
         lg.info("Successfully downloaded video in download function")
-        return render_template("download.html", video_id=video_id)
+        return render_template("download.html", video_id=video_id), 200
 
     except Exception as err:
         lg.error("download function didn't work")
