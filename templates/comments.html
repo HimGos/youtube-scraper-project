@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqQAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAC8AAAAAAAAAAAAAAAAQ0O+/1pa//9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//Wlr//0NDvv8AAAAAAAAA/1pa//9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//AAAA/wAAAP9aWv//Wlr//1pa//9aWv//Wlr//wwMIf9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//Wlr//wAAAP8AAAD/LS2A/1pa//9aWv//Wlr//1pa//8AAAD/AAAA/y8vhP9aWv//Wlr//1pa//9aWv//Wlr//1pa//8AAAD/AAAA/y0tgP9aWv//Wlr//1pa//9aWv//AAAA////////////AAAA/1pa//9aWv//Wlr//1pa//9aWv//AAAA/wAAAP80NJT/Wlr//1pa//9aWv//Wlr//wAAAP///////////wAAAP9aWv//Wlr//1pa//9aWv//Wlr//wAAAP8AAAD/Wlr//1pa//9aWv//Wlr//1pa//8AAAD/AAAA/1hY+f9aWv//Wlr//1pa//9aWv//Wlr//1pa//8AAAD/AAAA/1pa//9aWv//Wlr//1pa//9aWv//Li6B/1pa//9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//AAAA/wAAAP9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//Wlr//wAAAP8AAAAAQ0O+/1pa//9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//Wlr//0NDvv8AAAAAAAAAAAAAAAAAAAC1AAAA/wAAAP8AAAD/AAAA/62t/1itrf9YAAAA/wAAAP8AAAD/AAAA/wAAAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAP//AADAAwAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAEAAMGDAAD//wAA//8AAA==" rel="icon" type="image/x-icon" />
+
+    <title>YouTube Scraper App</title>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/content.css') }}">-->
+</head>
+<style>
+   body {
+	margin:2rem;
+	width:-100%;
+	color:white;
+    background-color: #130f40;
+	font-family: Lato ;
+	font-weight: bold;
+}
+div{
+  text-align:center;
+  border-radius:0.3%;
+background-color:white;
+	font-weight: bold;
+}
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #130f40;
+  color:white;
+}
+</style>
+<body>
+<div class="container table-responsive py-5" id="tableDiv">
+  <table class="table table-bordered table-hover">
+    <thead class="thead-dark">
+      <tr style="text-align: center">
+        <th class="align-middle">Serial No.</th>
+        <th class="align-middle">Author</th>
+        <th class="align-middle">Comment</th>
+    </tr>
+    </thead>
+    <tbody>
+     {% for item in vid_comments %}
+    <tr>
+        <td class="align-middle">{{ item['SerialNo'] }}</td>
+        <td class="align-middle">{{ item['Author'] }}</td>
+        <td class="align-middle">{{ item['Comment'] }}</td>
+    {% endfor %}
+          </tbody>
+  </table>
+  </div>
+</body>
+</html>

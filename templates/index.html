@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqQAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAC8AAAAAAAAAAAAAAAAQ0O+/1pa//9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//Wlr//0NDvv8AAAAAAAAA/1pa//9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//AAAA/wAAAP9aWv//Wlr//1pa//9aWv//Wlr//wwMIf9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//Wlr//wAAAP8AAAD/LS2A/1pa//9aWv//Wlr//1pa//8AAAD/AAAA/y8vhP9aWv//Wlr//1pa//9aWv//Wlr//1pa//8AAAD/AAAA/y0tgP9aWv//Wlr//1pa//9aWv//AAAA////////////AAAA/1pa//9aWv//Wlr//1pa//9aWv//AAAA/wAAAP80NJT/Wlr//1pa//9aWv//Wlr//wAAAP///////////wAAAP9aWv//Wlr//1pa//9aWv//Wlr//wAAAP8AAAD/Wlr//1pa//9aWv//Wlr//1pa//8AAAD/AAAA/1hY+f9aWv//Wlr//1pa//9aWv//Wlr//1pa//8AAAD/AAAA/1pa//9aWv//Wlr//1pa//9aWv//Li6B/1pa//9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//AAAA/wAAAP9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//Wlr//wAAAP8AAAAAQ0O+/1pa//9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//Wlr//1pa//9aWv//Wlr//0NDvv8AAAAAAAAAAAAAAAAAAAC1AAAA/wAAAP8AAAD/AAAA/62t/1itrf9YAAAA/wAAAP8AAAD/AAAA/wAAAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAP//AADAAwAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAEAAMGDAAD//wAA//8AAA==" rel="icon" type="image/x-icon" />
+    <title>YouTube Scraper App</title>
+</head>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<body>
+<div id="heading">
+    <h1 style="vertical-align: top;color:white; position:relative;padding:100px; Font-size:50px">YouTube  Scraper</h1>
+</div>
+ <br>
+<br>
+    <div class="search-box">
+        <form action="/content" method="POST">
+    <button class="btn-search"><ion-icon name="search-outline"></ion-icon></button>
+    <input type="text" class="input-search" id="content" name="content" placeholder="Enter username...">
+  </form>
+    </div>
+
+
+
+<footer>
+  <p>
+    Created with <ion-icon name="heart-outline"></ion-icon> by
+    <a target="_blank">Himanshu Goswami</a>
+    Connect Here :
+      <a target="_blank"  href="https://www.instagram.com/walkwithhimz/"><ion-icon name="logo-instagram"></ion-icon></a>
+    <a target="_blank"  href="https://www.linkedin.com/in/himanshu-goswami-972059231/"><ion-icon name="logo-linkedin"></ion-icon></a>
+    <a target="_blank" href="https://github.com/HimGos"><ion-icon name="logo-github"></ion-icon></a>
+      <a target="_blank" href="https://twitter.com/Walk_With_Himz"><ion-icon name="logo-twitter"></ion-icon></a>
+  </p>
+</footer>
+
+</body>
+</html>

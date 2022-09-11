@@ -1,0 +1,261 @@
+googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 881-449-444
+googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 881-449-444
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 04:03:38] "POST /content HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 04:03:55] "GET /comments/GDdigOQ4qOY HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 04:04:58] "GET /download/TxKnV7_WnVE HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 04:05:37] "GET /download/2zXbRJty4vc HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 04:05:40] "GET /download/aQVoMfQK-5c HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 04:05:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 04:11:17] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 04:11:17] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 04:13:02] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 04:13:02] "GET /static/css/index.css HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 04:13:05] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 04:13:05] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 04:14:00] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 04:14:00] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 04:14:09] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 04:14:09] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 04:16:33] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 04:16:33] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 04:17:53] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 04:17:53] "GET /static/css/index.css HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 04:17:55] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 04:17:55] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 04:17:57] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 04:17:57] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 881-449-444
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 08:40:33] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 08:40:33] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 08:40:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+root - INFO - Successfully fetched channel username from index form!
+root - INFO - Successfully got all values in content function
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 08:41:13] "POST /content HTTP/1.1" 200 -
+root - INFO - Successfully fetched all comments in comments function
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 08:41:52] "GET /comments/pZakG-kIt_o HTTP/1.1" 200 -
+root - INFO - Successfully downloaded video in download function
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 08:42:30] "GET /download/dPARXQO8dkw HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 08:42:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+root - INFO - Successfully fetched all comments in comments function
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 08:44:45] "GET /comments/pZakG-kIt_o HTTP/1.1" 200 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\Himz\\PycharmProjects\\YT_Data_Project\\app.py', reloading
+werkzeug - INFO -  * Restarting with stat
+googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 881-449-444
+root - INFO - Successfully downloaded video in download function
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 08:44:54] "GET /download/pZakG-kIt_o HTTP/1.1" 200 -
+root - INFO - Successfully fetched channel username from index form!
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 08:45:18] "POST /content HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 08:45:18] "[36mGET /static/css/404.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 08:45:26] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 08:45:26] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 881-449-444
+root - INFO - Successfully fetched channel username from index form!
+root - INFO - Setting up mysql connection...
+root - INFO - Successfully pushed data into MySQL table.
+root - INFO - Successfully got all values in content function
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:04:44] "POST /content HTTP/1.1" 200 -
+googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 881-449-444
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:18:10] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:18:10] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:18:14] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:18:14] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:18:15] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:18:15] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:18:17] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:18:17] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:19:26] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:19:26] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:19:46] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:19:46] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:19:46] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:19:46] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:19:46] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:19:46] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:19:47] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:19:47] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:19:49] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:19:49] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:19:49] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:19:49] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:19:49] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:19:49] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:19:49] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:19:49] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:19:50] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:19:50] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:19:50] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:19:50] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:19:57] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:19:57] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:19:58] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:19:58] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:19:58] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:19:58] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:19:58] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:19:58] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:20:00] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:20:00] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:20:00] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:20:00] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:20:00] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:20:00] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:20:00] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:20:00] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:20:00] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:20:00] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:20:30] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:20:30] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:20:39] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:20:39] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:20:39] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:20:39] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:20:40] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:20:40] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:20:40] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:20:40] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:20:40] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:20:40] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:20:40] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:20:40] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:20:40] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:20:40] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:20:41] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:20:41] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:20:59] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:20:59] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:20:59] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:20:59] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:20:59] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:20:59] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:21:00] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:21:00] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:21:00] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:21:00] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:21:50] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:21:50] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:25:58] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:25:58] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:27:00] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:27:00] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:27:00] "[33mGET /templates/favicon.ico HTTP/1.1[0m" 404 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:27:01] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:27:01] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:27:46] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:27:46] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:27:47] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:27:47] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:29:30] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:29:30] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:29:30] "[33mGET /img/favicon.ico HTTP/1.1[0m" 404 -
+googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 881-449-444
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:30:02] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:30:02] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:32:05] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:32:05] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+root - INFO - Successfully fetched channel username from index form!
+root - INFO - Successfully got all values in content function
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:32:28] "POST /content HTTP/1.1" 200 -
+root - INFO - Successfully fetched all comments in comments function
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:32:33] "GET /comments/gkRy67OCCpQ HTTP/1.1" 200 -
+root - INFO - Successfully downloaded video in download function
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:33:08] "GET /download/gkRy67OCCpQ HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:34:17] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:34:17] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\Himz\\PycharmProjects\\YT_Data_Project\\app.py', reloading
+werkzeug - INFO -  * Restarting with stat
+googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 881-449-444
+root - INFO - Successfully fetched channel username from index form!
+werkzeug - INFO -  * Detected change in 'C:\\Users\\Himz\\PycharmProjects\\YT_Data_Project\\app.py', reloading
+werkzeug - INFO -  * Restarting with stat
+googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 881-449-444
+root - INFO - Successfully fetched channel username from index form!
+root - INFO - Successfully fetched channel username from index form!
+root - ERROR - Error in content function
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:51:41] "POST /content HTTP/1.1" 200 -
+root - ERROR - Error in content function
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:51:41] "POST /content HTTP/1.1" 200 -
+googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 881-449-444
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:52:27] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:52:27] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+root - INFO - Successfully fetched channel username from index form!
+root - INFO - Successfully got all values in content function
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:52:48] "POST /content HTTP/1.1" 200 -
+root - INFO - Successfully fetched all comments in comments function
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 09:53:01] "GET /comments/gkRy67OCCpQ HTTP/1.1" 200 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\Himz\\PycharmProjects\\YT_Data_Project\\app.py', reloading
+werkzeug - INFO -  * Restarting with stat
+googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 881-449-444
+werkzeug - INFO -  * Detected change in 'C:\\Users\\Himz\\PycharmProjects\\YT_Data_Project\\app.py', reloading
+werkzeug - INFO -  * Restarting with stat
+googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 881-449-444
+googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 881-449-444
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 10:00:12] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 10:00:12] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+root - INFO - Successfully fetched channel username from index form!
+root - INFO - Successfully got all values in content function
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 10:01:32] "POST /content HTTP/1.1" 200 -
+root - INFO - Successfully fetched all comments in comments function
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 10:01:51] "GET /comments/mzZIYpPFDE4 HTTP/1.1" 200 -
+root - INFO - Successfully downloaded video in download function
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 10:02:43] "GET /download/fXEOXVZIQVM HTTP/1.1" 200 -
