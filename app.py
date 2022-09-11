@@ -248,7 +248,7 @@ def download(video_id):
     except Exception as err:
         lg.error("download function didn't work")
         print(err)
-        return "Something is wrong"
+        return err
 
 
 if __name__ == "__main__":
