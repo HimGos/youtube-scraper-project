@@ -3,7 +3,6 @@ from __future__ import unicode_literals
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from googleapiclient.discovery import build
-from pytube import YouTube
 import time
 import pymongo
 import pymysql
@@ -11,7 +10,6 @@ from flask import Flask, render_template, request
 import os
 from waitress import serve
 import logging as lg
-import youtube_dl
 from flask_cors import CORS, cross_origin
 
 
@@ -37,6 +35,10 @@ youtube = build('youtube', 'v3', developerKey=api_key)
 @app.route("/content", methods=["POST"])
 @cross_origin()
 def content():
+
+    """ This function allows us to fetch data like urls, title, likes, comment count & thumbnail url
+        from YouTube using webdriver. Further, push the data into MySQL"""
+
     if request.method == "POST":
         try:
 
@@ -187,6 +189,10 @@ def content():
 @app.route("/comments/<video_id>")
 @cross_origin()
 def comments(video_id):
+
+    """ This function allows us to fetch the comment and authors of particular video requested on previous page.
+        Further we can push the data on MongoDB."""
+
     try:
 
         comm_request = youtube.commentThreads().list(
@@ -244,33 +250,27 @@ def comments(video_id):
 @app.route('/download/<video_id>')
 @cross_origin()
 def download(video_id):
+
+    """ This function will allow us to view and download video. We download video using code below
+        and view video using YouTube iframe on html. """
+
     try:
 
-        # path = os.path.join(os.environ["HOMEPATH"], "Desktop")
-        # yt = YouTube("https://www.youtube.com/watch?v=" + video_id)
-        # yt.streams.get_lowest_resolution().download(path)
+        driver = webdriver.Chrome()
+        # Heading to website from where we can download video
+        driver.get("https://en.savefrom.net/210/")
+        element = driver.find_element(By.ID, "sf_url")
+        # send url of video
+        element.send_keys("https://www.youtube.com/watch?v=" + video_id)
+        # submit button click
+        element.submit()
 
-        class MyLogger(object):
-            def debug(self, msg):
-                pass
+        time.sleep(4)
 
-            def warning(self, msg):
-                pass
-
-            def error(self, msg):
-                print(msg)
-
-        def my_hook(d):
-            if d['status'] == 'finished':
-                print('Done downloading, now converting ...')
-
-        ydl_opts = {
-            'format': 'best',
-            'logger': MyLogger(),
-            'progress_hooks': [my_hook],
-        }
-        with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-            ydl.download(['https://www.youtube.com/watch?v=' + video_id])
+        # clicking the href of download button.
+        element1 = driver.find_element(By.LINK_TEXT, "Download")
+        # Finally, click on it.
+        element1.click()
 
         lg.info("Successfully downloaded video in download function")
         return render_template("download.html", video_id=video_id)
