@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from googleapiclient.discovery import build
-from pytube import YouTube, helpers
+from pytube import YouTube
 import time
 import pymongo
 import pymysql
@@ -12,6 +12,8 @@ import os
 from waitress import serve
 import logging as lg
 import youtube_dl
+from flask_cors import CORS, cross_origin
+
 
 # -- Configuring Logger --
 lg.basicConfig(filename="app.log", level=lg.INFO, format='%(name)s - %(levelname)s - %(message)s')
@@ -20,6 +22,7 @@ lg.basicConfig(filename="app.log", level=lg.INFO, format='%(name)s - %(levelname
 app = Flask(__name__)
 
 @app.route('/')
+@cross_origin()
 def index():
     return render_template("index.html")
 
@@ -32,6 +35,7 @@ youtube = build('youtube', 'v3', developerKey=api_key)
 # -- Fetching Data from YouTube --
 
 @app.route("/content", methods=["POST"])
+@cross_origin()
 def content():
     if request.method == "POST":
         try:
@@ -181,6 +185,7 @@ def content():
 
 
 @app.route("/comments/<video_id>")
+@cross_origin()
 def comments(video_id):
     try:
 
@@ -237,16 +242,35 @@ def comments(video_id):
 
 
 @app.route('/download/<video_id>')
+@cross_origin()
 def download(video_id):
     try:
-
-        ydl_opts = {'format':'worst'}
-        with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-            ydl.download(['https://www.youtube.com/watch?v='+video_id])
 
         # path = os.path.join(os.environ["HOMEPATH"], "Desktop")
         # yt = YouTube("https://www.youtube.com/watch?v=" + video_id)
         # yt.streams.get_lowest_resolution().download(path)
+
+        class MyLogger(object):
+            def debug(self, msg):
+                pass
+
+            def warning(self, msg):
+                pass
+
+            def error(self, msg):
+                print(msg)
+
+        def my_hook(d):
+            if d['status'] == 'finished':
+                print('Done downloading, now converting ...')
+
+        ydl_opts = {
+            'format': 'best',
+            'logger': MyLogger(),
+            'progress_hooks': [my_hook],
+        }
+        with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+            ydl.download(['https://www.youtube.com/watch?v=' + video_id])
 
         lg.info("Successfully downloaded video in download function")
         return render_template("download.html", video_id=video_id)
