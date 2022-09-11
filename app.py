@@ -238,9 +238,9 @@ def comments(video_id):
 @app.route('/download/<video_id>')
 def download(video_id):
     try:
-        path = os.path.join(os.environ["HOMEPATH"], "Desktop")
-        yt = YouTube("https://www.youtube.com/watch?v=" + video_id)
-        yt.streams.get_lowest_resolution().download(path)
+        # path = os.path.join(os.environ["HOMEPATH"], "Desktop")
+        # yt = YouTube("https://www.youtube.com/watch?v=" + video_id)
+        # yt.streams.get_lowest_resolution().download(path)
 
         lg.info("Successfully downloaded video in download function")
         return render_template("download.html", video_id=video_id)
