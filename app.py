@@ -248,8 +248,8 @@ def download(video_id):
 
 
 if __name__ == "__main__":
-    # app.run(debug=True)
-    app.debug = False
-    serve(app)
+    app.run()
+    # app.debug = False
+    # serve(app)
 
 
