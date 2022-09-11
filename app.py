@@ -240,7 +240,7 @@ def comments(video_id):
 def download(video_id):
     try:
 
-        ydl_opts = {}
+        ydl_opts = {'format':'worst'}
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             ydl.download(['https://www.youtube.com/watch?v='+video_id])
 
