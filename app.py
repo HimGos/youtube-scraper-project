@@ -40,9 +40,13 @@ def content():
             lg.info("Successfully fetched channel username from index form!")
 
             # driver = webdriver.Chrome()
-            op = webdriver.ChromeOptions()
-            op.add_argument('headless')
-            driver = webdriver.Chrome(options=op)
+            chrome_options = webdriver.ChromeOptions()
+            chrome_options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
+            chrome_options.add_argument("--headless")
+            chrome_options.add_argument("--disable-dev-shm-usage")
+            chrome_options.add_argument("--no-sandbox")
+            driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), options=chrome_options)
+
             driver.get("https://www.youtube.com/" + channel_username + "/videos")
 
             print("Web Driver Running... Fetching Data...")
@@ -248,8 +252,8 @@ def download(video_id):
 
 
 if __name__ == "__main__":
-    app.run()
-    # app.debug = False
-    # serve(app)
+    # app.run(debug=True)
+    app.debug = False
+    serve(app)
 
 

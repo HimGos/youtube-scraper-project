@@ -259,3 +259,12 @@ root - INFO - Successfully fetched all comments in comments function
 werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 10:01:51] "GET /comments/mzZIYpPFDE4 HTTP/1.1" 200 -
 root - INFO - Successfully downloaded video in download function
 werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 10:02:43] "GET /download/fXEOXVZIQVM HTTP/1.1" 200 -
+googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 11:48:02] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 11:48:02] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+root - INFO - Successfully fetched channel username from index form!
+root - INFO - Successfully got all values in content function
+werkzeug - INFO - 127.0.0.1 - - [11/Sep/2022 11:48:31] "POST /content HTTP/1.1" 200 -
