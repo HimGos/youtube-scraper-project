@@ -1,5 +1,5 @@
 # -- Required Libraries --
-
+from __future__ import unicode_literals
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from googleapiclient.discovery import build
@@ -11,6 +11,7 @@ from flask import Flask, render_template, request
 import os
 from waitress import serve
 import logging as lg
+import youtube_dl
 
 # -- Configuring Logger --
 lg.basicConfig(filename="app.log", level=lg.INFO, format='%(name)s - %(levelname)s - %(message)s')
@@ -239,14 +240,13 @@ def comments(video_id):
 def download(video_id):
     try:
 
-        proxy_handler = {
-            "http": "127.0.0.1:20304",
-            'https': '127.0.0.1:20304'
-        }
-        helpers.install_proxy(proxy_handler)
-        path = os.path.join(os.environ["HOMEPATH"], "Desktop")
-        yt = YouTube("https://www.youtube.com/watch?v=" + video_id)
-        yt.streams.get_lowest_resolution().download(path)
+        ydl_opts = {}
+        with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+            ydl.download(['https://www.youtube.com/watch?v='+video_id])
+
+        # path = os.path.join(os.environ["HOMEPATH"], "Desktop")
+        # yt = YouTube("https://www.youtube.com/watch?v=" + video_id)
+        # yt.streams.get_lowest_resolution().download(path)
 
         lg.info("Successfully downloaded video in download function")
         return render_template("download.html", video_id=video_id)
